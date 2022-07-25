@@ -1,0 +1,118 @@
+*{
+    /* الهوامش*/
+     margin: 0;
+     padding: 0;
+ }
+ marquee{
+     font-family: Algerian;
+     font-size: 60px;
+ }
+ body{
+     background-image:/*اظافة لون فوق الصورة*/linear-gradient(rgba(225, 8, 8, 0.014),rgba(0, 0, 0, 0.589)),url(../img/8.jpg);
+     background-image: cover;
+     background-size: 100%;
+     background-attachment: fixed;
+ }
+
+ /* ===================================================== header بداية تنسيق راس اصفحة ============================================================= */
+
+ span{
+    color: red;
+    font-family: normal;
+    font-size: medium;
+}
+header{
+    margin-top: 20%;
+}
+.login{
+    text-align: center;
+}
+.login input{
+    font-family: Cascadia Mono ExtraLight;
+    font-size: 30px;
+    background-color:  rgba(58, 27, 6, 0.452);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px 30px;
+    border:white 1px groove;
+    color: rgba(255, 208, 0, 0.938);
+    margin-left: 20px;
+    zoom: 1.5;
+}
+.login #log:hover {
+    background: rgba(255, 208, 0, 0.938);
+     color:rgba(58, 27, 6, 0.924) ;
+     border: groove 1px rgba(0, 0, 0, 0);
+}
+.login #creat:hover {
+    background-color: rgba(255, 208, 0, 0.938);
+    color: rgba(58, 27, 6, 0.876);
+    border: groove 1px black;
+}
+
+/*=============================================== نهاية تنسيق راس الصفحة ================================================*/
+
+/*=============================================== بداية تنسيق صفحة انشاء حساب ================================================*/
+
+table{
+    background-color:  rgba(14, 14, 14, 0.577);
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.938);
+    font-family: Cascadia Mono ExtraLight;
+    width: 100%;
+    /* background-image: url(../../assets/images/meetings-bg.jpg); */
+    margin-top: 20%;
+}
+.create_new{
+    font-size: x-large;
+    width: 30%;
+    margin-left: 36%;
+    /* margin-top: 4%; */
+}
+.form_create_new{
+   width: 100%;
+
+}
+input{
+    
+    font-size: x-large;
+    margin-bottom: 15px;
+    background-color:  rgba(255, 255, 255, 0.823);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 4px inset rgb(130, 0, 0);
+}
+input[type="text"],[type="password"]{
+    margin-left: 7%;
+}
+caption{
+    background-color:  rgba(0, 0, 0, 0.73);
+    padding: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+/* .boutton_create input{
+    margin-left: 13%;
+
+}*/
+input[type="button"],[type="Submit"]{
+    padding: 5px;
+    margin-left: 10%;
+}
+a{
+    color: yellow;
+}
+
+/*=============================================== نهاية تنسيق صفحة انشاء حساب ================================================*/
+
+.view{
+    color: rgb(255, 217, 0);
+    background-color:  rgba(58, 27, 6, 0.578);
+    width: 30%;
+    margin-left: 36%;
+    
+}
+.view input[type="Submit"]{
+    background-color:transparent;
+    border: none;
+}
